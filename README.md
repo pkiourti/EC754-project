@@ -3,13 +3,12 @@
 Tensorflow 1.13, Z3
 
 ### Required steps 
-cd to the root folder of this project
-
-export PYTHONPATH=$(pwd)/gym/gym/envs/classic_control
+- cd to the root folder of this project
+- export PYTHONPATH=$(pwd)/gym/gym/envs/classic_control
 
 ### Test a policy
-cd cartpole-v0
-python3 test.py --total_steps=500 --discrete --no_intervals=32
+- cd cartpole-v0
+- python3 test.py --total_steps=500 --discrete --no_intervals=32
 
 ### Generate a transition model (requires a lot of RAM)
 python3 generate_transition_model_cartpole.py --no_intervals=10 --episodes=1
