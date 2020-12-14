@@ -343,7 +343,7 @@ if __name__ == '__main__':
     no_intervals = args.no_intervals
     step = 2.3 / (no_intervals - 1)
     TIMESTEPS = args.timesteps
-    folder = os.path.join(env+'-0', 'models')
+    folder = os.path.join(env+'-v0', 'models')
     arch = os.path.join(folder, 'model_' + str(model_id) +  '_' + str(no_intervals) + '.json')
     weights = os.path.join(folder, 'model_' + str(model_id) + '_' + str(no_intervals) + '.h5')
 
