@@ -10,6 +10,10 @@ Tensorflow 1.13, Z3
 - cd cartpole-v0
 - python3 test.py --total_steps=500 --discrete --no_intervals=32
 
+### Visualize a run of a policy trained on discrete or continuous states
+- vlc discrete.mp4
+- vlc continuous.mp4
+
 ### Generate a transition model (requires a lot of RAM)
 python3 generate_transition_model_cartpole.py --no_intervals=10 --episodes=1
 
