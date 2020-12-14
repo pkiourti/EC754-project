@@ -4,6 +4,7 @@ Tensorflow 1.13, Z3
 
 ### Required steps 
 cd to the root folder of this project
+
 export PYTHONPATH=$(pwd)/gym/gym/envs/classic_control
 
 ### Test a policy
